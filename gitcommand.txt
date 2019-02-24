@@ -1,0 +1,12 @@
+   git init  -------
+   26  yum install git -y  ------ Installl git RPM usinf yum command
+   27  git init   -----   initialize the directory as local repo(logical repo)
+   33  git status   ----  check the status of track and untracked file
+   42  git status 
+   43  git add linuxcommand.txt  ----   add the file into your local repo area
+   44  git status
+   45  git commit -m "my first commi" ----  this command tell the commit to the repo area
+   46  git status
+   47  git remote add origin https://github.com/mahijagdale/dveopsclass.git   ----  add your local repo into master origin repo
+   48  git push -u origin master   ------------  push the file from local to master repo
+   50  history |grep git  ------
